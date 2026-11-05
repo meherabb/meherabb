@@ -152,7 +152,7 @@ A central index of research themes, selected papers, academic background, and co
 
 ### From question to reproducible evidence
 
-\`\`\`text
+```text
 Research question
       │
       ▼
@@ -168,7 +168,7 @@ Strong baselines ──► Controlled interventions ──► Ablations
                               │
                               ▼
                     Public research artifact
-\`\`\`
+```
 
 **My research principles:** formulate falsifiable questions; benchmark against meaningful alternatives; report negative results; isolate confounders; make compute costs and reproducibility requirements explicit.
 
