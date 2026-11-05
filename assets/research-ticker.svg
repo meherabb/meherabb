@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-labelledby="title description">
+<title id="title">Research in motion</title>
+<desc id="description">A colorful ticker cycling through vision transformers, reliability, medical AI, multilingual NLP, and reproducibility.</desc>
+<defs><linearGradient id="strip" x1="0" x2="1"><stop stop-color="#081727"/><stop offset=".5" stop-color="#162342"/><stop offset="1" stop-color="#081727"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#52E4EF"/><stop offset=".48" stop-color="#A18CFF"/><stop offset="1" stop-color="#FA72BF"/></linearGradient><clipPath id="clip"><rect width="1200" height="58" rx="10"/></clipPath></defs>
+<style>
+.motion{animation:scroll 22s linear infinite}
+@keyframes scroll{from{transform:translateX(1200px)}to{transform:translateX(-2300px)}}
+.still{opacity:0}
+@media(prefers-reduced-motion:reduce){.motion{animation:none!important;opacity:0}.still{opacity:1}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="1200" height="58" rx="10" fill="url(#strip)" stroke="#3B5D80" stroke-width="1"/>
+<rect width="1200" height="3" fill="url(#line)"/>
+<rect x="0" y="3" width="12" height="55" fill="#53DCEC"/>
+<g class="motion" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="1.65"><text x="0" y="39" fill="#B7E8F2">VISION TRANSFORMERS    •    RELIABLE PERCEPTION    •    MEDICAL FOUNDATION MODELS    •    MULTILINGUAL NLP    •    REPRODUCIBLE RESEARCH    •    VISION TRANSFORMERS    •    RELIABLE PERCEPTION    •    MEDICAL FOUNDATION MODELS    •    MULTILINGUAL NLP    •    REPRODUCIBLE RESEARCH    •    </text></g>
+<g class="still" font-family="Arial,Helvetica,sans-serif"><text x="30" y="38" font-size="17" fill="#D5E6F8" font-weight="700" letter-spacing="1.6">VISION TRANSFORMERS  •  RELIABLE AI  •  MEDICAL IMAGING  •  MULTILINGUAL NLP</text></g>
+</g>
+</svg>
