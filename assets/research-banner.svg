@@ -1,33 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
-<title id="title">Md Muntaqim Meherab — Machine Learning Researcher</title>
-<desc id="desc">Academic profile banner featuring computer vision, trustworthy AI, and reproducible machine learning, with an abstract network motif.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title description">
+<title id="title">Md Muntaqim Meherab — Research in Machine Learning and Computer Vision</title>
+<desc id="description">Dark academic banner with luminous cyan, violet and rose neural pathways and gently flowing signals. All motion is decorative.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#091528"/><stop offset="0.55" stop-color="#102544"/><stop offset="1" stop-color="#082b3b"/></linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55c3d4"/><stop offset="1" stop-color="#85a7ff"/></linearGradient>
-  <radialGradient id="glow"><stop offset="0" stop-color="#408cbe" stop-opacity=".35"/><stop offset="1" stop-color="#408cbe" stop-opacity="0"/></radialGradient>
-  <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#afd9ef" opacity=".12"/></pattern>
+<linearGradient id="background" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#070F20"/><stop offset=".54" stop-color="#0A1C32"/><stop offset="1" stop-color="#112347"/></linearGradient>
+<linearGradient id="accent" x1="0" x2="1"><stop stop-color="#52E4EF"/><stop offset=".48" stop-color="#A18CFF"/><stop offset="1" stop-color="#FA72BF"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#4375CE" stop-opacity=".3"/><stop offset="1" stop-color="#4375CE" stop-opacity="0"/></radialGradient>
+<pattern id="matrix" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#BFD8F5" opacity=".10"/></pattern>
+<clipPath id="mask"><rect width="1200" height="350" rx="18"/></clipPath>
 </defs>
-<rect width="1200" height="290" rx="19" fill="url(#bg)"/>
-<rect width="1200" height="290" rx="19" fill="url(#dots)"/>
-<circle cx="975" cy="138" r="210" fill="url(#glow)"/>
-<rect x="50" y="42" width="5" height="180" rx="2" fill="url(#edge)"/>
-<text x="79" y="67" fill="#7fd4de" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3.0">RESEARCH PROFILE</text>
-<text x="79" y="124" fill="#f4f8ff" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="700" letter-spacing=".2">Md Muntaqim Meherab</text>
-<text x="79" y="165" fill="#c1d2e7" font-family="Arial,Helvetica,sans-serif" font-size="21">Machine Learning · Computer Vision · Trustworthy AI</text>
-<path d="M79 190 H687" stroke="#627f9b" opacity=".45"/>
-<text x="79" y="218" fill="#91f0dc" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">EFFICIENT ADAPTATION</text>
-<text x="290" y="218" fill="#a8c4ff" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">RELIABILITY</text>
-<text x="434" y="218" fill="#becfea" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">REPRODUCIBILITY</text>
-<text x="79" y="255" fill="#9ab2ce" font-family="Arial,Helvetica,sans-serif" font-size="14">Daffodil International University · Dhaka, Bangladesh</text>
-<g fill="none" stroke-width="2" opacity=".8">
-<path d="M806 109 L907 60 L1033 99 L1129 40 M806 109 L866 204 L1006 232 L1139 169 M907 60 L959 152 L1033 99 L1139 169 M866 204 L959 152 L1006 232 M959 152 L1139 169" stroke="#4b84ac"/>
-<path d="M806 109 L959 152 L1033 99 M907 60 L1006 232" stroke="#75d7cc" stroke-dasharray="5 8" opacity=".6"/>
+<style>
+.beam{fill:none;stroke-width:2.5;stroke-dasharray:8 18;stroke-linecap:round;opacity:.85;animation:flow 6s linear infinite}
+.nodeHalo{animation:breath 4.5s ease-in-out infinite}
+.float{animation:float 7s ease-in-out infinite;transform-origin:951px 170px}
+.shine{animation:shimmer 6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-260}}
+@keyframes breath{0%,100%{opacity:.45;transform:scale(.86)}50%{opacity:1;transform:scale(1.25)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes shimmer{0%,100%{opacity:.25}50%{opacity:.8}}
+@media(prefers-reduced-motion:reduce){.beam,.nodeHalo,.float,.shine{animation:none!important}}
+</style>
+<g clip-path="url(#mask)">
+<rect width="1200" height="350" rx="18" fill="url(#background)"/>
+<rect width="1200" height="350" fill="url(#matrix)"/>
+<circle cx="954" cy="174" r="245" fill="url(#aura)"/>
+<path d="M0 329 H1200" stroke="url(#accent)" stroke-width="3"/>
+<path class="shine" d="M0 3 H1200" stroke="url(#accent)" stroke-width="2" opacity=".55"/>
+<g opacity=".35"><path d="M714 0 V350 M804 0 V350 M895 0 V350 M985 0 V350 M1075 0 V350 M1165 0 V350" stroke="#38526D" stroke-width=".55" stroke-dasharray="2 13"/></g>
+<g class="float"><g fill="none" stroke="#53759B" stroke-width="1.3" opacity=".48"><path d="M764 88 C804.32 88,807.68 65,848 65"/><path d="M764 88 C804.32 88,807.68 125,848 125"/><path d="M764 157 C804.32 157,807.68 125,848 125"/><path d="M764 157 C804.32 157,807.68 194,848 194"/><path d="M764 157 C804.32 157,807.68 264,848 264"/><path d="M764 236 C804.32 236,807.68 194,848 194"/><path d="M764 236 C804.32 236,807.68 264,848 264"/><path d="M848 65 C890.24 65,893.76 89,936 89"/><path d="M848 65 C890.24 65,893.76 161,936 161"/><path d="M848 125 C890.24 125,893.76 89,936 89"/><path d="M848 125 C890.24 125,893.76 161,936 161"/><path d="M848 194 C890.24 194,893.76 161,936 161"/><path d="M848 194 C890.24 194,893.76 240,936 240"/><path d="M848 264 C890.24 264,893.76 240,936 240"/><path d="M936 89 C983.04 89,986.96 120,1034 120"/><path d="M936 89 C983.04 89,986.96 204,1034 204"/><path d="M936 161 C983.04 161,986.96 120,1034 120"/><path d="M936 161 C983.04 161,986.96 204,1034 204"/><path d="M936 240 C983.04 240,986.96 204,1034 204"/><path d="M1034 120 C1081.52 120,1085.48 156,1133 156"/><path d="M1034 204 C1081.52 204,1085.48 156,1133 156"/></g><path class="beam" style="animation-delay:-0.00s;stroke:#52E4EF" d="M764 88 C804.32 88,807.68 65,848 65"/><path class="beam" style="animation-delay:-1.21s;stroke:#A18CFF" d="M764 157 C804.32 157,807.68 194,848 194"/><path class="beam" style="animation-delay:-2.42s;stroke:#FA72BF" d="M848 125 C890.24 125,893.76 89,936 89"/><path class="beam" style="animation-delay:-3.63s;stroke:#B6F36C" d="M848 194 C890.24 194,893.76 240,936 240"/><path class="beam" style="animation-delay:-4.84s;stroke:#52E4EF" d="M936 89 C983.04 89,986.96 204,1034 204"/><path class="beam" style="animation-delay:-6.05s;stroke:#A18CFF" d="M1034 120 C1081.52 120,1085.48 156,1133 156"/><g><circle cx="764" cy="88" r="14" fill="#52E4EF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-0.00s;transform-origin:764px 88px" cx="764" cy="88" r="7" fill="none" stroke="#52E4EF" stroke-width="1.7" opacity=".62"/><circle cx="764" cy="88" r="3.7" fill="#52E4EF"/></g><g><circle cx="764" cy="157" r="14" fill="#A18CFF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-0.37s;transform-origin:764px 157px" cx="764" cy="157" r="7" fill="none" stroke="#A18CFF" stroke-width="1.7" opacity=".62"/><circle cx="764" cy="157" r="3.7" fill="#A18CFF"/></g><g><circle cx="764" cy="236" r="14" fill="#FA72BF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-0.74s;transform-origin:764px 236px" cx="764" cy="236" r="7" fill="none" stroke="#FA72BF" stroke-width="1.7" opacity=".62"/><circle cx="764" cy="236" r="3.7" fill="#FA72BF"/></g><g><circle cx="848" cy="65" r="14" fill="#A18CFF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-1.11s;transform-origin:848px 65px" cx="848" cy="65" r="7" fill="none" stroke="#A18CFF" stroke-width="1.7" opacity=".62"/><circle cx="848" cy="65" r="3.7" fill="#A18CFF"/></g><g><circle cx="848" cy="125" r="14" fill="#52E4EF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-1.48s;transform-origin:848px 125px" cx="848" cy="125" r="7" fill="none" stroke="#52E4EF" stroke-width="1.7" opacity=".62"/><circle cx="848" cy="125" r="3.7" fill="#52E4EF"/></g><g><circle cx="848" cy="194" r="14" fill="#FA72BF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-1.85s;transform-origin:848px 194px" cx="848" cy="194" r="7" fill="none" stroke="#FA72BF" stroke-width="1.7" opacity=".62"/><circle cx="848" cy="194" r="3.7" fill="#FA72BF"/></g><g><circle cx="848" cy="264" r="14" fill="#B6F36C" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-2.22s;transform-origin:848px 264px" cx="848" cy="264" r="7" fill="none" stroke="#B6F36C" stroke-width="1.7" opacity=".62"/><circle cx="848" cy="264" r="3.7" fill="#B6F36C"/></g><g><circle cx="936" cy="89" r="14" fill="#52E4EF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-2.59s;transform-origin:936px 89px" cx="936" cy="89" r="7" fill="none" stroke="#52E4EF" stroke-width="1.7" opacity=".62"/><circle cx="936" cy="89" r="3.7" fill="#52E4EF"/></g><g><circle cx="936" cy="161" r="14" fill="#FA72BF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-2.96s;transform-origin:936px 161px" cx="936" cy="161" r="11" fill="none" stroke="#FA72BF" stroke-width="1.7" opacity=".62"/><circle cx="936" cy="161" r="5.3" fill="#FA72BF"/></g><g><circle cx="936" cy="240" r="14" fill="#A18CFF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-3.33s;transform-origin:936px 240px" cx="936" cy="240" r="7" fill="none" stroke="#A18CFF" stroke-width="1.7" opacity=".62"/><circle cx="936" cy="240" r="3.7" fill="#A18CFF"/></g><g><circle cx="1034" cy="120" r="14" fill="#B6F36C" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-3.70s;transform-origin:1034px 120px" cx="1034" cy="120" r="7" fill="none" stroke="#B6F36C" stroke-width="1.7" opacity=".62"/><circle cx="1034" cy="120" r="3.7" fill="#B6F36C"/></g><g><circle cx="1034" cy="204" r="14" fill="#52E4EF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-4.07s;transform-origin:1034px 204px" cx="1034" cy="204" r="7" fill="none" stroke="#52E4EF" stroke-width="1.7" opacity=".62"/><circle cx="1034" cy="204" r="3.7" fill="#52E4EF"/></g><g><circle cx="1133" cy="156" r="14" fill="#A18CFF" opacity=".08"/><circle class="nodeHalo" style="animation-delay:-4.44s;transform-origin:1133px 156px" cx="1133" cy="156" r="7" fill="none" stroke="#A18CFF" stroke-width="1.7" opacity=".62"/><circle cx="1133" cy="156" r="3.7" fill="#A18CFF"/></g></g>
+<rect x="47" y="50" width="4" height="215" rx="2" fill="url(#accent)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="77" y="72" fill="#52E4EF" font-size="13" font-weight="700" letter-spacing="3.1">ACADEMIC RESEARCH  /  OPEN SCIENCE</text>
+<text x="76" y="132" fill="#F4F8FF" font-size="45" font-weight="700">Md Muntaqim Meherab</text>
+<text x="77" y="173" fill="#CFDEF2" font-size="19">Machine Learning Researcher</text>
+<text x="77" y="203" fill="#A5BBD4" font-size="16">Computer Vision  ·  Reliable AI  ·  Representation Learning</text>
+<path d="M77 227 H650" stroke="#54718D" stroke-width="1" opacity=".65"/>
+<text x="77" y="254" fill="#52E4EF" font-size="12" font-weight="700" letter-spacing="1.3">EFFICIENT ADAPTATION</text>
+<text x="279" y="254" fill="#A18CFF" font-size="12" font-weight="700" letter-spacing="1.3">CALIBRATION</text>
+<text x="407" y="254" fill="#FA72BF" font-size="12" font-weight="700" letter-spacing="1.3">REPRODUCIBILITY</text>
+<text x="77" y="305" fill="#9BB4D2" font-size="14">Daffodil International University  ·  Dhaka, Bangladesh</text>
+<text x="1086" y="310" fill="#5F7A9B" font-size="11" letter-spacing="2">ML / CV</text>
 </g>
-<g fill="#102544" stroke="#79ccdb" stroke-width="2.5">
-<circle cx="806" cy="109" r="11"/><circle cx="907" cy="60" r="12"/><circle cx="1033" cy="99" r="11"/><circle cx="1129" cy="40" r="8"/><circle cx="866" cy="204" r="9"/><circle cx="959" cy="152" r="18"/><circle cx="1006" cy="232" r="10"/><circle cx="1139" cy="169" r="11"/>
-</g>
-<circle cx="959" cy="152" r="6" fill="#a5ffdf"/>
-<g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#bfd7e8">
-<text x="906" y="35">METHODS</text><text x="1045" y="86">EVIDENCE</text><text x="1064" y="252">IMPACT</text>
 </g>
 </svg>
