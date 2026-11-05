@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">Research workflow from hypothesis to reproducible release</title><desc id="desc">An animated five-step workflow: question, baselines, experiment, evidence, and release.</desc>
+<defs><linearGradient id="background" x1="0" x2="1"><stop stop-color="#0A182A"/><stop offset="1" stop-color="#172847"/></linearGradient></defs>
+<style>.signal{animation:move 6s linear infinite;stroke-dasharray:5 14}.node{animation:glow 4s ease-in-out infinite}@keyframes move{to{stroke-dashoffset:-190}}@keyframes glow{0%,100%{opacity:.6}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.signal,.node{animation:none!important}}</style>
+<rect width="1200" height="230" rx="17" fill="url(#background)"/>
+<text x="31" y="39" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#B6D9EC" letter-spacing="2">RESEARCH TO REPRODUCIBILITY</text>
+<path d="M102 111 H1097" stroke="#4A6687" stroke-width="3" fill="none"/>
+<path class="signal" d="M102 111 H1097" stroke="#6BE8DF" stroke-width="3" fill="none"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<circle cx="101" cy="111" r="28" fill="#13283E" stroke="#51E5DF" stroke-width="2.5"/>
+<circle class="node" style="animation-delay:-0s" cx="101" cy="111" r="10" fill="#51E5DF" />
+<text x="101" y="79" fill="#51E5DF" text-anchor="middle" font-size="13" font-weight="700">01</text>
+<text x="101" y="164" fill="#F5F8FD" font-size="15" font-weight="700" text-anchor="middle">QUESTION</text>
+<text x="101" y="187" fill="#B6C8DE" font-size="12.5" text-anchor="middle">Define a falsifiable hypothesis</text>
+</g><g font-family="Arial,Helvetica,sans-serif">
+<circle cx="350" cy="111" r="28" fill="#13283E" stroke="#8EA9FF" stroke-width="2.5"/>
+<circle class="node" style="animation-delay:-0.55s" cx="350" cy="111" r="10" fill="#8EA9FF" />
+<text x="350" y="79" fill="#8EA9FF" text-anchor="middle" font-size="13" font-weight="700">02</text>
+<text x="350" y="164" fill="#F5F8FD" font-size="15" font-weight="700" text-anchor="middle">BASELINES</text>
+<text x="350" y="187" fill="#B6C8DE" font-size="12.5" text-anchor="middle">Establish credible comparisons</text>
+</g><g font-family="Arial,Helvetica,sans-serif">
+<circle cx="599" cy="111" r="28" fill="#13283E" stroke="#F187D5" stroke-width="2.5"/>
+<circle class="node" style="animation-delay:-1.1s" cx="599" cy="111" r="10" fill="#F187D5" />
+<text x="599" y="79" fill="#F187D5" text-anchor="middle" font-size="13" font-weight="700">03</text>
+<text x="599" y="164" fill="#F5F8FD" font-size="15" font-weight="700" text-anchor="middle">EXPERIMENT</text>
+<text x="599" y="187" fill="#B6C8DE" font-size="12.5" text-anchor="middle">Control, ablate, stress-test</text>
+</g><g font-family="Arial,Helvetica,sans-serif">
+<circle cx="848" cy="111" r="28" fill="#13283E" stroke="#FBCB78" stroke-width="2.5"/>
+<circle class="node" style="animation-delay:-1.6500000000000001s" cx="848" cy="111" r="10" fill="#FBCB78" />
+<text x="848" y="79" fill="#FBCB78" text-anchor="middle" font-size="13" font-weight="700">04</text>
+<text x="848" y="164" fill="#F5F8FD" font-size="15" font-weight="700" text-anchor="middle">EVIDENCE</text>
+<text x="848" y="187" fill="#B6C8DE" font-size="12.5" text-anchor="middle">Quantify uncertainty</text>
+</g><g font-family="Arial,Helvetica,sans-serif">
+<circle cx="1097" cy="111" r="28" fill="#13283E" stroke="#A6E78E" stroke-width="2.5"/>
+<circle class="node" style="animation-delay:-2.2s" cx="1097" cy="111" r="10" fill="#A6E78E" />
+<text x="1097" y="79" fill="#A6E78E" text-anchor="middle" font-size="13" font-weight="700">05</text>
+<text x="1097" y="164" fill="#F5F8FD" font-size="15" font-weight="700" text-anchor="middle">RELEASE</text>
+<text x="1097" y="187" fill="#B6C8DE" font-size="12.5" text-anchor="middle">Document and reproduce</text>
+</g>
+</svg>
