@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">Md Muntaqim Meherab — Machine Learning Researcher</title>
+<desc id="desc">Academic profile banner featuring computer vision, trustworthy AI, and reproducible machine learning, with an abstract network motif.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#091528"/><stop offset="0.55" stop-color="#102544"/><stop offset="1" stop-color="#082b3b"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55c3d4"/><stop offset="1" stop-color="#85a7ff"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#408cbe" stop-opacity=".35"/><stop offset="1" stop-color="#408cbe" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#afd9ef" opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="290" rx="19" fill="url(#bg)"/>
+<rect width="1200" height="290" rx="19" fill="url(#dots)"/>
+<circle cx="975" cy="138" r="210" fill="url(#glow)"/>
+<rect x="50" y="42" width="5" height="180" rx="2" fill="url(#edge)"/>
+<text x="79" y="67" fill="#7fd4de" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3.0">RESEARCH PROFILE</text>
+<text x="79" y="124" fill="#f4f8ff" font-family="Arial,Helvetica,sans-serif" font-size="47" font-weight="700" letter-spacing=".2">Md Muntaqim Meherab</text>
+<text x="79" y="165" fill="#c1d2e7" font-family="Arial,Helvetica,sans-serif" font-size="21">Machine Learning · Computer Vision · Trustworthy AI</text>
+<path d="M79 190 H687" stroke="#627f9b" opacity=".45"/>
+<text x="79" y="218" fill="#91f0dc" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">EFFICIENT ADAPTATION</text>
+<text x="290" y="218" fill="#a8c4ff" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">RELIABILITY</text>
+<text x="434" y="218" fill="#becfea" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">REPRODUCIBILITY</text>
+<text x="79" y="255" fill="#9ab2ce" font-family="Arial,Helvetica,sans-serif" font-size="14">Daffodil International University · Dhaka, Bangladesh</text>
+<g fill="none" stroke-width="2" opacity=".8">
+<path d="M806 109 L907 60 L1033 99 L1129 40 M806 109 L866 204 L1006 232 L1139 169 M907 60 L959 152 L1033 99 L1139 169 M866 204 L959 152 L1006 232 M959 152 L1139 169" stroke="#4b84ac"/>
+<path d="M806 109 L959 152 L1033 99 M907 60 L1006 232" stroke="#75d7cc" stroke-dasharray="5 8" opacity=".6"/>
+</g>
+<g fill="#102544" stroke="#79ccdb" stroke-width="2.5">
+<circle cx="806" cy="109" r="11"/><circle cx="907" cy="60" r="12"/><circle cx="1033" cy="99" r="11"/><circle cx="1129" cy="40" r="8"/><circle cx="866" cy="204" r="9"/><circle cx="959" cy="152" r="18"/><circle cx="1006" cy="232" r="10"/><circle cx="1139" cy="169" r="11"/>
+</g>
+<circle cx="959" cy="152" r="6" fill="#a5ffdf"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#bfd7e8">
+<text x="906" y="35">METHODS</text><text x="1045" y="86">EVIDENCE</text><text x="1064" y="252">IMPACT</text>
+</g>
+</svg>
