@@ -4,6 +4,10 @@
 
 <br />
 
+<img src="./assets/research-ticker.svg" alt="Moving research topics: vision transformers, reliable perception, medical foundation models, multilingual NLP, reproducible research" width="100%" />
+
+<br />
+
 [![Website](https://img.shields.io/badge/Academic_Website-Visit-0D9488?style=flat-square&logo=googlechrome&logoColor=white)](https://meherabb.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-Research_Code-202C3A?style=flat-square&logo=github&logoColor=white)](https://github.com/meherabb?tab=repositories)
 [![Email](https://img.shields.io/badge/Academic_Email-Contact-385C78?style=flat-square&logo=gmail&logoColor=white)](mailto:meherab2305101354@diu.edu.bd)
@@ -21,9 +25,9 @@
 
 ### Research in one sentence
 
-My research examines **where learned representations succeed, where they fail, and how to make their adaptation and evaluation more reliable**—especially in computer vision, remote sensing, medical imaging, multilingual NLP, and compute-constrained settings.
+My research examines **where learned representations succeed, where they fail, and how to make their adaptation and evaluation more reliable**—especially in computer vision, remote sensing, medical imaging, and multilingual NLP.
 
-I work across **representation learning, parameter-efficient adaptation, reliability and calibration, fairness, and compute-aware evaluation**. I aim to connect methodological contributions to carefully designed experiments, transparent limitations, and usable research artifacts.
+I work across **representation learning, parameter-efficient adaptation, reliability and calibration, fairness, and multilingual language technologies**. I aim to connect methodological contributions to carefully designed experiments, transparent limitations, and usable research artifacts.
 
 ### Research landscape
 
@@ -56,9 +60,9 @@ Demographic information encoded in medical foundation models and its implication
 </td>
 <td valign="top">
 
-**04 · Equitable machine learning**
+**04 · Inclusive language technologies**
 
-Compute inequality, evaluation under explicit resource budgets, and multilingual accessibility.
+Evaluation of multilingual language models and approaches for underrepresented languages.
 
 </td>
 </tr>
@@ -68,12 +72,11 @@ Compute inequality, evaluation under explicit resource budgets, and multilingual
 
 ### Selected research
 
-A selection of accepted research outputs. **Conference main tracks, position-paper tracks, and workshops are distinguished explicitly.** For my broader research portfolio, see the [academic website](https://meherabb.github.io/).
+A selection of accepted research outputs. **Main-conference and workshop contributions are identified separately.** For my broader research portfolio, see the [academic website](https://meherabb.github.io/).
 
 | Year | Research | Venue / distinction | Research artifact |
 |:---:|---|---|---|
 | **2027** | **Zero-Gradient Mid-layer Evolutionary Homophilic Exploration for Remote-sensing Adaptation with Frozen Backbones** | **IEEE/CVF WACV 2027**, Applications Track (main conference) | [MEHERAB code](https://github.com/meherabb/meherab) |
-| **2026** | **Position: The Machine Learning Community Must Treat Compute Inequality as a First-Class Research Problem** | **ICML 2026**, Position Paper Track — **Spotlight** | [Research portfolio](https://meherabb.github.io/) |
 | **2026** | **Does Confidence Track Visibility? Diagnosing Blind Confidence in Cloud-Occluded Flood Segmentation** | **NeurIPS 2026**, Tackling Climate Change with Machine Learning (TCCML) Workshop | [Code & experiments](https://github.com/meherabb/blind-confidence-flood-mapping) |
 | **2026** | **What Your CXR Reveals Beyond the Pathology: Causal Evidence for Demographic Leakage in Medical Foundation Model Embeddings and Its Calibration Fairness Consequences** | **ECCV 2026**, Medical Foundation Models and Benchmarks Workshop | [Code & experiments](https://github.com/meherabb/demographic-leakage-cxr) |
 | **2026** | **TRIM: Token-budgeted Data Mining for Instruction Tuning** | **ICLR 2026**, DATA-FM Workshop | [Research portfolio](https://meherabb.github.io/) |
@@ -152,25 +155,11 @@ A central index of research themes, selected papers, academic background, and co
 
 ### From question to reproducible evidence
 
-```text
-Research question
-      │
-      ▼
-Hypothesis & failure mode
-      │
-      ▼
-Strong baselines ──► Controlled interventions ──► Ablations
-      │                                              │
-      └──────────────► Statistical evaluation ◄───────┘
-                              │
-                              ▼
-                Limitations & reproducibility
-                              │
-                              ▼
-                    Public research artifact
-```
+<img src="./assets/research-workflow.svg" alt="Animated research workflow from falsifiable question through baselines, experiments, statistical evidence and reproducible artifact" width="100%" />
 
 **My research principles:** formulate falsifiable questions; benchmark against meaningful alternatives; report negative results; isolate confounders; make compute costs and reproducibility requirements explicit.
+
+<sub>Visuals are repository-hosted SVG assets, with reduced-motion fallbacks for accessibility. All diagrams are conceptual; no research result is encoded by decorative animation.</sub>
 
 ### Technical toolkit
 
